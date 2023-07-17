@@ -17,6 +17,7 @@
 		1BB7B6602A653639004BAD31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7B65E2A653639004BAD31 /* Main.storyboard */; };
 		1BB7B6622A65363A004BAD31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7B6612A65363A004BAD31 /* Assets.xcassets */; };
 		1BB7B6652A65363A004BAD31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7B6632A65363A004BAD31 /* LaunchScreen.storyboard */; };
+		1BB7B66B2A653A67004BAD31 /* MacPodDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7B66A2A653A67004BAD31 /* MacPodDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		1BB7B6612A65363A004BAD31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BB7B6642A65363A004BAD31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BB7B6662A65363A004BAD31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BB7B66A2A653A67004BAD31 /* MacPodDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacPodDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				1BB7B63B2A653307004BAD31 /* MacPodDemo1.h */,
 				1BB7B63C2A653307004BAD31 /* MacPodDemo1.docc */,
+				1BB7B66A2A653A67004BAD31 /* MacPodDemo.swift */,
 			);
 			path = MacPodDemo1;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BB7B66B2A653A67004BAD31 /* MacPodDemo.swift in Sources */,
 				1BB7B63D2A653307004BAD31 /* MacPodDemo1.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +503,7 @@
 		1BB7B6502A653307004BAD31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -515,6 +520,7 @@
 		1BB7B6512A653307004BAD31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
